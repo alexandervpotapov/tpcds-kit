@@ -549,7 +549,7 @@ day_number(date_t *d)
 }
 
 /*
- * Routine: getDateWeightFromJulian(jDay, nDistribution)
+ * Routine: getDateWeightFromJulian(int jDay, int nDistribution)
  * Purpose: return the weight associated with a particular julian date and distribution
  * Algorithm:
  * Data Structures:
@@ -563,7 +563,7 @@ day_number(date_t *d)
  * TODO: None
  */
 int
-getDateWeightFromJulian(jDay, nDistribution)
+getDateWeightFromJulian(int jDay, int nDistribution)
 {
 	date_t dTemp;
 	int nDay;
